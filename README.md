@@ -1,27 +1,29 @@
-# AngularBlogCloneGlobonews
+# Angular + Typescript - Blog Clone Globonews
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+## :sunglasses: Santander Bootcamp 2023 - Fullstack Java+Angular!
 
-## Development server
+Esse projeto foi realizado para concluir o módulo de Angular do "Santander Bootcamp 2023 - Fullstack Java+Angular", promovido pela DIO - Digital Innovation One em parceria com o Santander.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+O desafio era criar um blog afim de explorar o framework Angular, decidi utilizar como inspiração o blog da **Globo News**, por ser um site real, **rico em detalhes, informações e componentes gerando um trabalho mais completo e próximo do real no final**.
 
-## Code scaffolding
+Para melhor visualização do resultado, inclui o deploy do projeto:
+- [Live version - veja aqui o projeto](https://barbaradamasdev.github.io/angular-blog-clone-globonews/)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWt4cnpxMDF5czZlZ2ZjNjB6b2N3cXdpZXNzNDlrdmd1Z2xsNXd0dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cXblnKXr2BQOaYnTni/giphy.gif" width="480" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></img>
 
-## Build
+## 💾 Ferramentas e linguagens
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" width="20" height="20" /> Angular
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="20" height="20" /> Typescript
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="20" height="20"  /> HTML
+- <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"  width="20" height="20" /> CSS
 
-## Running unit tests
+<img src="https://github.com/barbaradamasdev/angular-blog-clone-globonews/assets/115722516/21c6f3aa-6f28-4eec-9139-f1a3fabf1800" width="65%" object-fit="cover"/>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+O projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
 
-## Running end-to-end tests
+## 🐼 Autora
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Bárbara Damasceno - barbaradamas.dev@gmail.com
+<hr>
+[Linkedin](https://www.linkedin.com/in/barbaradamascenodev)
