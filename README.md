@@ -1,6 +1,6 @@
 # Angular + Typescript - Blog Clone Globonews
 
-## :sunglasses: Santander Bootcamp 2023 - Fullstack Java+Angular!
+### :sunglasses: Santander Bootcamp 2023 - Fullstack Java+Angular!
 
 Esse projeto foi realizado para concluir o módulo de Angular do "Santander Bootcamp 2023 - Fullstack Java+Angular", promovido pela DIO - Digital Innovation One em parceria com o Santander.
 
