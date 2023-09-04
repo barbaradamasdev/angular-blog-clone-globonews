@@ -13,6 +13,7 @@ import { CardJournalsComponent } from './components/card-journals/card-journals.
 import { CardSocialMediaComponent } from './components/card-social-media/card-social-media.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { PubliComponent } from './components/publi/publi.component';
+import { CardComponent } from './components/card-carousel/card/card.component';
 
 import { ContentComponent } from './pages/content/content.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -30,7 +31,8 @@ import { HomeComponent } from './pages/home/home.component';
     FooterComponent,
     PubliComponent,
     HomeComponent,
-    ContentComponent
+    ContentComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
@@ -47,7 +49,8 @@ import { HomeComponent } from './pages/home/home.component';
     FooterComponent,
     PubliComponent,
     HomeComponent,
-    ContentComponent
+    ContentComponent,
+    CardComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
