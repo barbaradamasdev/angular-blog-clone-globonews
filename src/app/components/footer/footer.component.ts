@@ -7,5 +7,5 @@ import { Component, Input } from '@angular/core';
 })
 export class FooterComponent {
 @Input()
-  Id:string = '0';
+  id:string = '0';
 }

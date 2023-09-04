@@ -7,7 +7,7 @@ import { Component, Input } from '@angular/core';
 })
 export class CardEmphasisComponent {
   @Input()
-  Id:string= '0'
+  id:string= '0'
   @Input()
   photoCover:string = ''
   @Input()

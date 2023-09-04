@@ -7,7 +7,7 @@ import { Component, Input } from '@angular/core';
 })
 export class CardJournalsComponent {
   @Input()
-  $id:string= '0'
+  id:string= '0'
   @Input()
   boxTitle:string = ''
 

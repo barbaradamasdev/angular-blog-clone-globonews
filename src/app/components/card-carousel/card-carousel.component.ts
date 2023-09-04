@@ -7,7 +7,7 @@ import { Component, Input } from '@angular/core';
 })
 export class CardCarouselComponent {
   @Input()
-  $id:string= '0'
+  id:string= '0'
 
   carouselSlide:boolean = false;
 
