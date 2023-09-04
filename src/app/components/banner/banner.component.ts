@@ -7,5 +7,5 @@ import { Component, Input } from '@angular/core';
 })
 export class BannerComponent {
 @Input()
-Id:string= '0'
+$id:string= '0'
 }

@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { RouterModule, Routes, NavigationEnd, Router } from '@angular/router';
 
 import { ContentComponent } from './pages/content/content.component';
 import { HomeComponent } from './pages/home/home.component';
@@ -16,7 +16,19 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled'})],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+
+  export class AppRoutingModule {
+    constructor(private router: Router) { }
+
+      ngOnInit() {
+          this.router.events.subscribe((evt:any) => {
+              if (!(evt instanceof NavigationEnd)) {
+                  return;
+              }
+              window.scrollTo(0, 0)
+          });
+      }
+  }

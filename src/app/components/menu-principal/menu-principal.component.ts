@@ -3,7 +3,7 @@ import { Component, HostListener } from '@angular/core';
 @Component({
   selector: 'app-menu-principal',
   templateUrl: './menu-principal.component.html',
-  styleUrls: ['./menu-principal.component.css', './menu-principal.responsive.component.css']
+  styleUrls: ['./menu-principal.component.css']
 })
 export class MenuPrincipalComponent {
   navfixed:boolean = false;
