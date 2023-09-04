@@ -1,4 +1,5 @@
-import { Component, NgModule } from '@angular/core';
+import { Component } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 
 @Component({
@@ -8,5 +9,8 @@ import { Component, NgModule } from '@angular/core';
 })
 export class HomeComponent {
 
+  constructor (
+    private route:ActivatedRoute
+  ) {}
 
 }

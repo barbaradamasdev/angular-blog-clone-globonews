@@ -7,5 +7,5 @@ import { Component, Input } from '@angular/core';
 })
 export class PubliComponent {
   @Input()
-  photo:string = ''
+  photo:string = 'https://github.com/barbaradamasdev/angular-blog/blob/main/src/assets/Anuncio1.gif?raw=true'
 }

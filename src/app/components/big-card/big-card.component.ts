@@ -1,5 +1,4 @@
 import { Component, Input } from '@angular/core';
-import { CardCarouselComponent } from '../card-carousel/card-carousel.component';
 
 @Component({
   selector: 'app-big-card',
