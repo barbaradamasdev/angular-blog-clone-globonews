@@ -1,0 +1,40 @@
+.articles {
+  display: grid;
+  gap: 1vw;
+  grid-template-areas: "main main aside";
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.articles__main {
+  grid-area: main;
+}
+
+.articles__aside {
+  max-width: 350px;
+  grid-area: aside;
+}
+
+@media (min-width: 771px) and (max-width: 950px) {
+  .container,
+  .container-inside {
+    padding: 10px !important;
+  }
+}
+
+@media (max-width: 770px) {
+  .container,
+  .container-inside {
+    padding: 20px;
+    margin: 0;
+  }
+  .articles {
+    display: grid;
+    gap: 20px;
+    grid-template-areas: "aside" "main";
+  }
+
+  .articles__main,
+  .articles__aside {
+    width: 100vw;
+  }
+}

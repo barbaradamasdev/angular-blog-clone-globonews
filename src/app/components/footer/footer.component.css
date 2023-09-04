@@ -1,0 +1,52 @@
+.bg-full {
+  background-color: #e42f2e;
+  color: white;
+}
+
+p span {
+  font-size: 2.5rem;
+  font-weight: 700;
+  letter-spacing: -4px;
+  margin-right: 10px;
+}
+
+ul {
+  align-items: center;
+  justify-content: space-between;
+}
+
+li {
+  list-style: none;
+}
+
+li + li::before {
+  content: "\2758";
+  margin: 0 8px;
+  opacity: 0.3;
+}
+
+.flex {
+  align-items: center;
+  margin-top: 15px;
+  font-size: 0.8rem;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+li {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .flex {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  li::before {
+    content: "\2758";
+    margin: 0 8px;
+    opacity: 0.3;
+  }
+}

@@ -1,0 +1,126 @@
+/* First menu - white*/
+.primary {
+  gap: 5px;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+}
+
+.primary > a + a::before {
+  content: "|";
+  padding-right: 5px;
+  color: grey;
+  opacity: 0.3;
+  font-weight: 100;
+}
+
+.login {
+  gap: 15px;
+  align-items: center;
+}
+
+.login > * {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.login button {
+  padding: 3px;
+  border-radius: 3px;
+  border: 1px solid grey;
+}
+
+.container {
+  justify-content: space-between;
+  align-items: center;
+}
+
+div.bg-full {
+  background-color: #f3f3f3;
+}
+
+/* Second menu - red */
+.red-menu.bg-full {
+  background-color: var(--red);
+}
+
+.red-menu {
+  color: white;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.menu-sandwich {
+  align-items: center;
+  gap: 8px;
+}
+
+.menu-sandwich p {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.left > p {
+  font-size: 2.5rem;
+  letter-spacing: -4px;
+}
+
+.left > p::before {
+  content: "\2758";
+  margin: 0 25px 0 15px;
+  opacity: 0.3;
+  font-size: 1.7rem;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 1.8rem;
+}
+
+.search-bar {
+  background-color: #c32728;
+  padding: 5px;
+  width: 155px;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.8rem;
+  border-radius: 5px;
+  border: none;
+  padding-left: 35px;
+  color: white;
+}
+
+.search-bar::placeholder {
+  color: white;
+}
+
+.right {
+  position: relative;
+  height: 35px;
+}
+
+.right::before {
+  content: "";
+  background: url("https://api.iconify.design/ic/outline-search.svg?color=white")
+    center / contain no-repeat;
+  position: absolute;
+  left: 8px;
+  top: 0;
+  bottom: 0;
+  width: 24px;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: 0.2s linear;
+  z-index: 1;
+}
+
+.nofixed {
+  position: static;
+  top: -50px;
+  transition: 0.2s linear;
+}

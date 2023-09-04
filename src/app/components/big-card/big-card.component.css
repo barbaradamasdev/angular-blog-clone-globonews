@@ -1,0 +1,68 @@
+hr {
+  margin: 30px auto;
+  opacity: 0.6;
+}
+
+.big-card {
+  gap: 25px;
+  margin-bottom: 35px;
+  position: relative;
+}
+
+img {
+  border-radius: 10px;
+  max-width: 50%;
+  width: 378px;
+  object-fit: cover;
+  height: 100%;
+  max-height: 275px;
+}
+
+.card-info {
+  flex-direction: column;
+  gap: 8px;
+  width: 50%;
+}
+
+h2 {
+  color: var(--red);
+}
+
+.date,
+.tag {
+  opacity: 0.7;
+  font-size: 0.8rem;
+}
+
+.tag::before {
+  content: "---";
+  margin: 7px;
+  text-decoration: line-through;
+}
+
+@media (max-width: 770px) {
+  img {
+    width: 50%;
+    min-height: 100%;
+  }
+
+  .big-card {
+    max-width: 90vw;
+  }
+}
+
+@media (max-width: 400px) {
+  .big-card {
+    flex-direction: column;
+    max-width: 85vw;
+  }
+
+  .big-card img {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .card-info {
+    width: 100%;
+  }
+}

@@ -1,0 +1,50 @@
+p,
+h1,
+img {
+  cursor: inherit;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin: 20px auto;
+  letter-spacing: -5px;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  margin: 10px auto;
+}
+
+.author {
+  font-weight: bold;
+  margin: 10px auto;
+}
+
+.info {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons > img {
+  width: 25px;
+  height: 25px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+hr {
+  margin: 50px auto 70px;
+}
+
+.photoCover {
+  width: 100%;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin: 20px auto;
+}

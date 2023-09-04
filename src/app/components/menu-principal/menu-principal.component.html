@@ -1,0 +1,37 @@
+<div (scroll)="onscroll()" [ngClass]="navfixed?'fixed':'nofixed'">
+  <div class="bg-full">
+    <nav class="container flex">
+      <div class="primary flex">
+        <a [routerLink]="['']" style="color: #0768db">globo.com</a>
+        <a [routerLink]="['']" style="color: #a22614">g1</a>
+        <a [routerLink]="['']" style="color: #1b9e54">ge</a>
+        <a [routerLink]="['']" style="color: #e26c35">gshow</a>
+        <a [routerLink]="['']" style="color: #dc2839">globoplay</a>
+        <a [routerLink]="['']" style="color: #1f4f88">o globo</a>
+      </div>
+
+      <div class="login flex">
+        <a [routerLink]="['']">ASSINE JÁ</a>
+        <button [routerLink]="['']">ENTRAR ></button>
+      </div>
+    </nav>
+  </div>
+
+  <section class="red-menu bg-full">
+    <div class="container flex">
+      <div class="left flex">
+        <div class="menu-sandwich flex">
+          <p style="font-size: 1.5rem;">&#x2630;</p>
+          <p [routerLink]="['']" class="menu">MENU</p></div>
+        <p>g1</p>
+      </div>
+
+      <h1 [routerLink]="['']" class="center">GLOBONEWS</h1>
+
+      <div class="right flex">
+        <input type="text" name="search-bar" class="search-bar flex" id="" placeholder="BUSCAR">
+      </div>
+
+    </div>
+  </section>
+</div>
