@@ -3,7 +3,44 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'app-card',
   templateUrl: './card.component.html',
-  styleUrls: ['./card.component.css']
+  style: `
+  .carousel-card {
+    width: 250px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    font-size: 0.8rem;
+  }
+  
+  .carousel-card {
+    position: relative;
+  }
+  
+  .carousel-card::before {
+    content: url("https://api.iconify.design/ri/play-fill.svg?color=red&width=30&height=30");
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    top: 100px;
+    left: 20px;
+    padding: 8px;
+  }
+  
+  .carousel-card img {
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  
+  .time {
+    position: absolute;
+    color: white;
+    top: 110px;
+    left: 70px;
+    padding: 8px;
+  }
+  `
 })
 export class CardComponent {
   @Input()

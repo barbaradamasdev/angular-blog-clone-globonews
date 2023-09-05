@@ -3,7 +3,7 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'app-card-social-media',
   templateUrl: './card-social-media.component.html',
-  styleUrls: ['./card-social-media.component.css']
+  styleUrls: ['../cards.component.css']
 })
 export class CardSocialMediaComponent {
   @Input()

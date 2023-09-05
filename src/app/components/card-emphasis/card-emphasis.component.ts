@@ -3,7 +3,7 @@ import { Component, Input } from '@angular/core';
 @Component({
   selector: 'app-card-emphasis',
   templateUrl: './card-emphasis.component.html',
-  styleUrls: ['./card-emphasis.component.css']
+  styleUrls: ['../cards.component.css']
 })
 export class CardEmphasisComponent {
   @Input()
