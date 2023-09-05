@@ -11,11 +11,15 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
-    path:'content/:id',
-    component: ContentComponent
+    path:'content',
+    component: MainComponent,
   },
   {
-    path:'**',
+    path:'content/:id',
+    component: ContentComponent,
+  },
+  {
+    path: '**',
     redirectTo:''
   }
 ];

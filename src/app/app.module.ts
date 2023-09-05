@@ -18,8 +18,6 @@ import { CardComponent } from './components/card-carousel/card/card.component';
 import { ContentComponent } from './pages/content/content-main/content-main.component';
 import { MainComponent } from './pages/home/main/main.component';
 
-/* import { HomeModule } from './pages/home/home.module'; */
-
 @NgModule({
   declarations: [
     AppComponent,
