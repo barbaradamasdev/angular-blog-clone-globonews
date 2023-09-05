@@ -21,6 +21,7 @@ Para melhor visualização do resultado, inclui o deploy do projeto:
 <img src="https://github.com/barbaradamasdev/angular-blog-clone-globonews/assets/115722516/21c6f3aa-6f28-4eec-9139-f1a3fabf1800" width="65%" object-fit="cover"/>
 
 O projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+* Esse projeto é para fim de aprendizado e não tem intenção de ferir direitos de Copyrights
 
 ## 🐼 Autora
 
