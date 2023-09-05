@@ -8,6 +8,7 @@ O desafio era criar um blog afim de explorar o framework Angular, decidi utiliza
 
 Para melhor visualização do resultado, inclui o deploy do projeto:
 - [Live version - veja aqui o projeto](https://barbaradamasdev.github.io/angular-blog-clone-globonews/)
+- Esse projeto é para fins educacionais e não tem intenção de ferir direitos de Copyrights!
 
 <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWt4cnpxMDF5czZlZ2ZjNjB6b2N3cXdpZXNzNDlrdmd1Z2xsNXd0dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cXblnKXr2BQOaYnTni/giphy.gif" width="480" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></img>
 
@@ -21,7 +22,6 @@ Para melhor visualização do resultado, inclui o deploy do projeto:
 <img src="https://github.com/barbaradamasdev/angular-blog-clone-globonews/assets/115722516/21c6f3aa-6f28-4eec-9139-f1a3fabf1800" width="65%" object-fit="cover"/>
 
 O projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
-* Esse projeto é para fim de aprendizado e não tem intenção de ferir direitos de Copyrights
 
 ## 🐼 Autora
 
