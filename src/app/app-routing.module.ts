@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes, NavigationEnd, Router } from '@angular/router';
 
-import { ContentComponent } from './pages/content/content.component';
-import { HomeComponent } from './pages/home/home.component';
+import { ContentComponent } from './pages/content/content-main/content-main.component';
+import { MainComponent } from './pages/home/main/main.component';
 
 const routes: Routes = [
   {
     path:'',
-    component: HomeComponent,
+    component: MainComponent,
     pathMatch: 'full'
   },
   {

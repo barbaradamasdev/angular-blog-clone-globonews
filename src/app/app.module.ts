@@ -15,8 +15,10 @@ import { FooterComponent } from './components/footer/footer.component';
 import { PubliComponent } from './components/publi/publi.component';
 import { CardComponent } from './components/card-carousel/card/card.component';
 
-import { ContentComponent } from './pages/content/content.component';
-import { HomeComponent } from './pages/home/home.component';
+import { ContentComponent } from './pages/content/content-main/content-main.component';
+import { MainComponent } from './pages/home/main/main.component';
+
+/* import { HomeModule } from './pages/home/home.module'; */
 
 @NgModule({
   declarations: [
@@ -30,13 +32,13 @@ import { HomeComponent } from './pages/home/home.component';
     CardSocialMediaComponent,
     FooterComponent,
     PubliComponent,
-    HomeComponent,
+    MainComponent,
     ContentComponent,
     CardComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   exports:[
     MenuPrincipalComponent,
@@ -48,7 +50,7 @@ import { HomeComponent } from './pages/home/home.component';
     CardSocialMediaComponent,
     FooterComponent,
     PubliComponent,
-    HomeComponent,
+    MainComponent,
     ContentComponent,
     CardComponent
   ],
