@@ -1,3 +1,5 @@
+Esse projeto é para fins educacionais e não tem intenção de ferir direitos de Copyrights!
+
 # Angular + Typescript - Blog Clone Globonews
 
 ### :sunglasses: Santander Bootcamp 2023 - Fullstack Java+Angular!
@@ -8,7 +10,6 @@ O desafio era criar um blog afim de explorar o framework Angular, decidi utiliza
 
 Para melhor visualização do resultado, inclui o deploy do projeto:
 - [Live version - veja aqui o projeto](https://barbaradamasdev.github.io/angular-blog-clone-globonews/)
-- Esse projeto é para fins educacionais e não tem intenção de ferir direitos de Copyrights!
 
 <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExaWt4cnpxMDF5czZlZ2ZjNjB6b2N3cXdpZXNzNDlrdmd1Z2xsNXd0dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cXblnKXr2BQOaYnTni/giphy.gif" width="480" height="400" frameBorder="0" class="giphy-embed" allowFullScreen></img>
 
